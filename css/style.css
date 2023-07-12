@@ -1,0 +1,577 @@
+:root {
+  --primaryColor: #343434;
+  --secondaryColor: #748182;
+  scroll-padding-top: 69px;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 40px;
+  position: relative;
+  z-index: 10;
+}
+.portfolio .text-center h3::after {
+  content: "";
+  background-image: url(../images/dots.png);
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  width: 220px;
+  height: 23px;
+  transform: translateX(-50%);
+  /* background-color: red; */
+  z-index: -1;
+}
+
+.contactSection .contactTop h3::after {
+  content: "";
+  background-image: url(../images/dots.png);
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  width: 220px;
+  height: 23px;
+  transform: translateX(-50%);
+  /* background-color: red; */
+  z-index: -1;
+}
+#services .text-black h3::after {
+  content: "";
+  background-image: url(../images/dots.png);
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  width: 220px;
+  height: 23px;
+  transform: translateX(-50%);
+  /* background-color: red; */
+  z-index: -1;
+}
+#testimonials .testTop h3::after {
+  content: "";
+  background-image: url(../images/dots.png);
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  width: 220px;
+  height: 23px;
+  transform: translateX(-50%);
+  /* background-color: red; */
+  z-index: -1;
+}
+
+#team .teamTop h3::after {
+  content: "";
+  background-image: url(../images/dots.png);
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  width: 220px;
+  height: 23px;
+  transform: translateX(-50%);
+  /* background-color: red; */
+  z-index: -1;
+}
+
+h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.nav-link {
+  padding-bottom: 0;
+  transition: color 0.5s ease-out, background-color 0.5s ease-out,
+    border-color 0.5s ease-out;
+  -webkit-transition: color 0.5s ease-out, background-color 0.5s ease-out,
+    border-color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out, background-color 0.5s ease-out,
+    border-color 0.5s ease-out;
+  -ms-transition: color 0.5s ease-out, background-color 0.5s ease-out,
+    border-color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out, background-color 0.5s ease-out,
+    border-color 0.5s ease-out;
+}
+.iconsStyle {
+  height: 33px;
+  width: 33px;
+  /* border: black 1px solid; */
+  background-color: black;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* & Start Navbar */
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-inline: 0px;
+}
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-brand {
+  color: var(--primaryColor);
+  cursor: pointer;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--secondaryColor);
+}
+
+.navbar-toggler,
+.navbar-toggler:focus {
+  box-shadow: none;
+  border: unset;
+}
+.navbar .Dan a {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 18px;
+}
+.nav-item {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* & End Navbar */
+/* ------------------------- */
+/* ! Start Home Section  */
+header {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+.homeSection {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+}
+
+.homeIcons .iconsStyle {
+  height: 33px;
+  width: 33px;
+  /* border: black 1px solid; */
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homeContent h5 {
+  font-size: 50px;
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 60px;
+}
+h1::after {
+  content: "";
+  animation-name: homeAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+/* ! End Home Section  */
+
+/* ^Start About Section */
+.hero::after {
+  content: "";
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  left: 25px;
+  bottom: -50px;
+  /* background-color: yellow; */
+  background-image: url(../images/dots.png);
+  background-repeat: repeat;
+  z-index: -1;
+}
+.right-about h6 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 13px;
+  padding-top: 6px;
+}
+.bar {
+  height: 30px;
+}
+.prog-num {
+  right: 0;
+}
+.btns button {
+  font-size: 13px;
+  border-radius: 7px;
+  border: 1px solid #1c1c1c;
+  transition: all 0.5s;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 13px;
+}
+.about .left-about img {
+  width: 90%;
+  margin-left: 10px;
+}
+.right-about h3 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.right-about p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #748182;
+}
+
+.btn1 {
+  background-color: black;
+  color: white;
+}
+
+.btn2 {
+  background-color: white;
+  color: black;
+}
+
+.btn1:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn2:hover {
+  background-color: black;
+  color: white;
+}
+/*^ End About Section */
+
+/* &Start Services Section   */
+.services .container {
+  width: 85%;
+}
+.services {
+  background-color: #f7f7f7;
+}
+.serviceContent .iconsStyle {
+  width: 70px;
+  height: 70px;
+  background-color: #f7f7f7;
+  transition: 1s all;
+  -webkit-transition: 1s all;
+  -moz-transition: 1s all;
+  -ms-transition: 1s all;
+  -o-transition: 1s all;
+}
+.serviceContent:hover .iconsStyle {
+  background-color: black;
+  color: #fff;
+}
+/* &End Services Section   */
+
+/* ~ Start Portfolio Section  */
+.portfolio .listContent ul {
+  font-family: "Poppins";
+  font-weight: 900;
+  font-size: 16px;
+}
+.portfolio .inner h6,
+.portfolio .layer {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+}
+.nav-pills .nav-link {
+  --bs-nav-pills-border-radius: 100vh;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: unset;
+  color: black;
+}
+
+.nav-link {
+  display: inline-flex;
+}
+
+.portfolio .layer {
+  top: 100%;
+  transition: top 0.5s;
+  z-index: 3;
+}
+
+.portfolio .inner:hover .layer {
+  top: 0;
+}
+
+.portfolio .inner::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.portfolio .inner:hover::after {
+  opacity: 1;
+}
+
+.portfolio button {
+  text-transform: uppercase;
+}
+
+.icn i {
+  font-size: 14px;
+  color: white;
+  transition: all 0.3s;
+}
+
+.icn:hover i {
+  color: black !important;
+}
+
+.modal-backdrop.show {
+  display: none;
+}
+
+.modal-main {
+  position: absolute;
+  top: 50%;
+}
+.nav-link {
+  color: black;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: black;
+}
+
+.icn {
+  width: 30px;
+  height: 30px;
+  background-color: black !important;
+  color: #fff !important;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.icn:hover {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid black;
+}
+.btn {
+  color: var(--bs-white);
+}
+
+/* ~ End Portfolio Section  */
+/* ~ --------------------------------  */
+
+/* !Start Testimonials Section  */
+.testimonials {
+  background-color: #f7f7f7;
+}
+/* .testimonials .myItem {
+  width: 70%;
+} */
+.testimonials .myItem h6 {
+  font-weight: "Montserrat";
+  font-weight: 600;
+}
+
+.testimonials .myItem img {
+  width: 90px;
+  height: 90px;
+}
+.positionForCarousel {
+  position: unset;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #d6d6d6;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+.testContent {
+  width: 50%;
+  margin: 0px auto;
+}
+
+.carousel-indicators .active {
+  background-color: #869791;
+}
+.clientItems p {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* !End Testimonials Section  */
+/* ! --------------------------------  */
+
+/* &Start Team Section  */
+.teamText h4 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.teamText h5 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+}
+.teamSection .row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+.teamSection .team .teamOverlay {
+  background-color: #faf3f4f3;
+  top: 4px;
+  bottom: 4px;
+  right: 4px;
+  left: 4px;
+  opacity: 1;
+  transition: transform 0.8s;
+  -webkit-transition: transform 0.8s;
+  -moz-transition: transform 0.8s;
+  -ms-transition: transform 0.8s;
+  -o-transition: transform 0.8s;
+  opacity: 0;
+}
+.teamSection .team .teamOverlay ul {
+  position: relative;
+  opacity: 1;
+  transform: scaleX(-1);
+  opacity: 0;
+}
+.teamSection .team .teamOverlay ul .iconsStyle {
+  color: white;
+  width: 40px;
+  height: 40px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.teamAll {
+  width: 90%;
+}
+.team img {
+  transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+}
+.teamSection .team:hover .teamOverlay,
+.teamSection .teamAll:hover .teamOverlay {
+  opacity: 1;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+
+.teamSection .team .teamOverlay:hover ul,
+.teamSection .teamAll:hover ul {
+  opacity: 1;
+}
+.teamSection .team .teamOverlay .iconsStyle:hover {
+  background-color: #fff;
+  color: var(--primaryColor);
+}
+.team:hover img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+/* &End Team Section  */
+/* & --------------------------------  */
+
+/* * Start Contact Section  */
+.contactCenter h6 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+}
+.contactCenter .iconsStyle {
+  width: 60px;
+  height: 60px;
+  background-color: #f4f4f4;
+  border: unset;
+  transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+}
+.hov-one:hover .iconsStyle,
+.hov-two:hover .iconsStyle,
+.hov-three:hover .iconsStyle {
+  background-color: var(--primaryColor);
+  color: #fff;
+}
+
+.contactForm .firstTwo input {
+  width: 49%;
+}
+
+.form-control:focus,
+.form-control {
+  border: unset;
+  box-shadow: unset;
+  background-color: #f4f4f4;
+}
+textarea {
+  max-height: 160px;
+  height: 160px;
+}
+.contactForm .btnForm {
+  padding: 10px 45px;
+  transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+}
+.btnForm:hover {
+  background-color: #fff !important;
+  color: black !important;
+}
+
+/* * End Contact Section  */
+/* * --------------------------------  */
+footer {
+  font-size: 13px;
+  padding: 30px;
+}
